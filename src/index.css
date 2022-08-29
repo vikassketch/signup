@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #eee;
+}
+
+.container{
+ max-width: 500px;
+ margin: 20px auto;
+ width: 80%;
+ padding: 30px;
+ border-radius: 10px;
+ background-color: #91babb;
+ box-shadow: 0 0 5px gray;
+ 
+}
+.header{
+ text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.add-form{
+  margin-bottom: 40px;
+}
+.form-control{
+  margin: 20px 0;
+}
+.form-control label{
+  display: block;
+  font-weight: bold;
+  
+}
+.form-control input{
+  width: 85%;
+  height: 40px;
+  margin: 5px;
+  font-size: 17px;
+  padding:3px 7px;
+  border-radius: 10px;
+  border: none;
+  /* border-color: rgb(41, 89, 193); */
+  
+}
+.btn{
+  
+
+  cursor: pointer;
+  padding: 10px 20px;
+  background: rgb(41, 89, 193);
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  width: 55%;
+  border: none;
+ 
+  
+ 
+  
+}
+.fl{
+  display: flex;
+  justify-content: center;
+}
+.task{
+  background: #f4f4f4;
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+
+}
+.task h3{
+  margin-bottom: 5px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn1{
+  background: rgb(41, 89, 193);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  float: right;
+  font-size: 17px;
+}
